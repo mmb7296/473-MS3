@@ -5,7 +5,6 @@ import xarray
 pcpdict = {}
 yearlist = [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019]
 seasonstring = 'MAM'
-#seasonstring = 'DJF'
 
 if seasonstring =='MAM':
     for year in yearlist:
@@ -55,7 +54,6 @@ import netCDF4 as nc
 start_year = 2010
 end_year = 2019
 seasonstring = 'MAM'
-#seasonstring = 'DJF'
 
 readpath = './{0}_{1}-{2}_pcp_sum.nc'.format(seasonstring, start_year, end_year)
 
